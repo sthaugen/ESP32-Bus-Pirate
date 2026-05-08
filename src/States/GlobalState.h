@@ -27,7 +27,7 @@ private:
     uint32_t spiFrequency = 20000000;
 
     // WiFi AP Credentials
-    std::string apName = "ESP32-Bus-Pirate";
+    std::string apName = "ESP32-Bit-Pirate";
     std::string apPassword = "readytoboard";
 
     // NVS
@@ -164,7 +164,7 @@ private:
     size_t fileCacheLimit = 64;
 
     // USB Default Configuration
-    std::string usbProductString = "ESP32-Bus-Pirate";
+    std::string usbProductString = "ESP32-Bit-Pirate";
     std::string usbManufacturerString = "Free Open Source";
     std::string usbSerialString = "";     // MAC address will be suffixed in runtime for uniqueness
     uint16_t usbVid = 0x303A;   // VID for USB device descriptor

@@ -52,7 +52,7 @@ bool EthernetService::configure(int8_t pinCS, int8_t pinRST, int8_t pinSCK, int8
   }
 
   // Hostname
-  ETH.setHostname("esp32-buspirate-eth");
+  ETH.setHostname("esp32-bitpirate-eth");
 
   _configured = true;
   return true;
@@ -139,7 +139,7 @@ void EthernetService::hardReset() {
     ETH.end();
     bool ok = ETH.begin(ETH_PHY_W5500, _phyAddr, _pinCS, _pinIRQ, _pinRST, *_spi, (uint8_t)(_spiHz / 1000000));
     if (ok) {
-        ETH.setHostname("esp32-buspirate-eth");
+        ETH.setHostname("esp32-bitpirate-eth");
     }
 }
 

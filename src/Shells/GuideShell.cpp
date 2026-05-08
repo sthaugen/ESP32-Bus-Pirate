@@ -199,7 +199,7 @@ void GuideShell::cmdInstructionSyntax() {
 
 void GuideShell::cmdPythonAutomation() {
     terminalView.println("\n=== Python Automation (Serial) ===\n");
-    terminalView.println("Repo: ESP32-Bus-Pirate-Scripts");
+    terminalView.println("Repo: ESP32 Bit Pirate Scripts");
     terminalView.println("https://github.com/geo-tp/ESP32-Bus-Pirate-Scripts");
     terminalView.println("");
     terminalView.println("Minimal example:");

@@ -35,7 +35,7 @@ void M5DeviceView::logo() {
 
     // Box
     int boxX = 10;
-    int boxY = 99;  // 102 - 3
+    int boxY = 97;
     int boxW = M5.Lcd.width() - 20;
     int boxH = 26;
 
@@ -46,7 +46,7 @@ void M5DeviceView::logo() {
     M5.Lcd.setTextSize(1.5);
     M5.Lcd.setTextColor(TEXT_COLOR);
 
-    auto text = "ESP32 Bus Pirate - " + state.getVersion();
+    auto text = "ESP32 Bit Pirate - " + state.getVersion();
     int textX = (M5.Lcd.width() - M5.Lcd.textWidth(text.c_str())) / 2;
     int textY = boxY + 7;  // alignement vertical
 

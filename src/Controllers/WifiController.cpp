@@ -567,7 +567,7 @@ void WifiController::handleRepeater(const TerminalCommand& cmd)
     if (apPass.empty()) {
         apPass = userInputManager.readSanitizedString(
             "Enter Repeater Pass", 
-            "esp32buspirate", 
+            "esp32bitpirate",
             /*onlyLetter=*/false
         );
         if (apPass.size() > 64) {

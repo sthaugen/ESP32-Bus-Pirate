@@ -41,12 +41,12 @@ public:
     };
 
     // begin / end server BT
-    void startServer(const std::string& deviceName = "Bus-Pirate-Blueooth");
+    void startServer(const std::string& deviceName = "Bit-Pirate-Blueooth");
     void stopServer();
     void releaseBtClassic();
 
     // Init client
-    void init(const std::string& deviceName = "Bus-Pirate-Bluetooth");
+    void init(const std::string& deviceName = "Bit-Pirate-Bluetooth");
     void deinit();
 
     // Pair as client
@@ -87,4 +87,3 @@ public:
     static std::vector<std::string> bluetoothSniffLog;
     static portMUX_TYPE bluetoothSniffMux;
 };
-

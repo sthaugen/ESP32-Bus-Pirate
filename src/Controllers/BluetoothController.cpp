@@ -147,7 +147,7 @@ void BluetoothController::handleServer(const TerminalCommand& cmd) {
 
     std::string name = cmd.getSubcommand();
     if (name.empty()) {
-        name = "Bus-Pirate-Bluetooth";
+        name = "Bit-Pirate-Bluetooth";
     }
 
     terminalView.println("Bluetooth Server: Starting BLE HID server as \"" + name + "\"...");

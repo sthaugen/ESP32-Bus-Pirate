@@ -4,7 +4,7 @@ std::string ProfileTransformer::toProfileText() {
     auto& gs = GlobalState::getInstance();
     std::ostringstream o;
 
-    o << "# ESP32 Bus Pirate profile\n";
+    o << "# ESP32 Bit Pirate profile\n";
     o << "version=" << gs.getVersion() << "\n\n";
 
     o << "spi.cs=" << (int)gs.getSpiCSPin() << "\n";

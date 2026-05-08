@@ -39,7 +39,7 @@ void CardputerTerminalView::welcome(TerminalTypeEnum& /*terminalType*/, std::str
     println("| __ )     |  _ \\");
     println("|  _ \\     | |_) |");
     println("| |_) |    |  __/ ");
-    println("|____/ US  |_| IRATE ");
+    println("|____/ IT  |_| IRATE ");
     println("Use arrows to scroll");
     println("Type 'mode' to start");
 }
