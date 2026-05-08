@@ -2,7 +2,7 @@
  * @file PN532.cpp
  * @author Rennan Cockles (https://github.com/rennancockles)
  * @brief Read and Write RFID tags using PN532 module
- * @version 0.1 (modified for ESP32 BusPirate)
+ * @version 0.1 (modified for ESP32 BitPirate)
  * @date 2024-08-19
  */
 

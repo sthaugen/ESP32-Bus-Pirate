@@ -25,7 +25,7 @@
  * restart the CPU.
  * 
  * 
- * REWORKED for ESP32 Bus Pirate
+ * REWORKED for ESP32 Bit Pirate
  * 
  *                   https://github.com/WhitehawkTailor/I2C-sniffer/
  */
